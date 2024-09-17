@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/rosha/IdeaProjects/ALF">
+        <classes>
+            <class name="alfTest.LoginTest"/>
+            <class name="alfTest.UsedVehicleTest"/>
+<!--            <class name="alfTest.NewVehicleTest"/>-->
+            <class name="alfTest.FillApplicantDetailsTest"/>
+            <class name="alfTest.AddCoApplicantTest"/>
+            <class name="alfTest.SaveSubmitTest"/>
+            <class name="alfTest.SearchTest"/>
+        </classes>
+    </test>
+</suite>
